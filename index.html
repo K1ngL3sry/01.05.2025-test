@@ -1,0 +1,74 @@
+
+<!doctype html>
+<html lang="cs">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Klub pokročilé akademické reflexe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a href="#" id="club-link"><h1>Klub pokročilé akademické reflexe</h1></a>
+           
+        
+        <p id="secret-note" style="display:none; margin-top:.5rem;">
+            Ve skutečnosti se scházíme večer, pijeme kávu a předstíráme, že rozumíme maticím.
+        
+        <script>
+        (function(){
+          var link = document.getElementById('club-link');
+          var note = document.getElementById('secret-note');
+          link.addEventListener('click', function(e){
+            e.preventDefault();
+            note.style.display = note.style.display === 'none' ? 'block' : 'none';
+          });
+        })();
+        </script>  
+        </p>
+                <ul class="main-nav">
+                    <li><a href="index.html" aria-current="page">Domů</a></li>
+                 
+                </ul>
+           
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h2>Veřejné informace o klubu</h2>
+            <p>Setkávání, workshopy a sdílení metod, které pomáhají zlepšovat výzkumnou praxi, kritické myšlení a zpětnou vazbu v akademickém prostředí.</p>
+       
+        </section>
+
+        <section class="features">
+            <article>
+                <h3>Program a workshopy</h3>
+                <p>Pravidelné sezení zaměřená na metodologii, etiku reflexe a psaní reflexivních poznámek.</p>
+            </article>
+            <article>
+                <h3>Peer-to-peer hodnocení</h3>
+                <p>Učící se skupiny pro sdílení rukopisů, postupů a informací o reflexivních technikách.</p>
+            </article>
+            <article>
+                <h3>Open resources</h3>
+                <p>Sdílené šablony, návody a krátké články o pokročilých přístupech k reflexi.</p>
+            </article>
+        </section>
+
+        <aside class="upcoming">
+            <h4>Nadcházející události</h4>
+            <ul>
+                <li>Workshop: „Meta-reflexe v kvalitativním výzkumu“ — 15. 5. 2025</li>
+                <li>Peer-review circle — 2. 6. 2025</li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>Klub pokročilé akademické reflexe — malé neformální společenství pro výzkumníky a pedagogy.</p>
+            <p><a href="reflexe.html">Kontakt a zapojení</a></p>
+        </div>
+    </footer>
+</body>
+</html>

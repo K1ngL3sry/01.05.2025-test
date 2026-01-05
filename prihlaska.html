@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Přihláška</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <form action="https://formsubmit.co/vtyzl@spskt.cz" method="POST" enctype="multipart/form-data">
+    Registrace účastníka do Klubu pokročilé akademické reflexe
+    <br>
+    <input type="text" placeholder="přezdívka" required>
+    <br>
+    <input type="number" placeholder="počet ukončených semestrů">
+    <br>
+    <input type="text" placeholder="číslo oblíbených dveří">
+    <br>
+    <br>
+        <label for="matice">oblíbený typ matice</label>
+        <select id="matice" name="oblíbené matice" >
+            <option value="symetrická">symetrická</option>
+            <option value="diagonální">diagonální</option>
+            <option value="náhodná">náhodná</option>   
+        </select>
+    <br>
+    <br>
+    vztah ke kvadratickým formám:
+    <br>
+  nemám tušení  0<input type="range" min="0" max="100" step="1" value="50">100 učil bych to ostatní
+    <br> 
+    <br>
+    <label for="rozlisit">dokážu rozlišit:</label>
+    <select id="rozlisit" name="rozlisit" multiple size="4" >
+        <option value="1">pozitivně definitní</option>
+        <option value="2">semidefinitní</option>
+        <option value="3">indefinitní</option>
+        <option value="4">záleží na náladě</option>
+    </select>
+    <br>
+    <br>
+    obrázek mého testu z lineární algebry: <input type="file" name="test linearni algebry" accept=".pdf,.doc,.docx">
+    <br>
+    <br>
+    <input type="email" placeholder="e-mail" required>
+    <input type="email" placeholder="e-mail pro kontrolu" required>
+    <br>
+    <button type="submit">Odeslat přihlášku</button>
+    </form>   
+</body>
+</html>
