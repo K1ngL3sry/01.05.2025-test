@@ -220,7 +220,7 @@ select {
   font: inherit;
   color: var(--text);
 }
-input:focus, textarea:focus, select:focus, number:focus, {
+input:focus, textarea:focus, select:focus {
   outline: none;
   border-color: var(--primary-600);
   box-shadow: 0 4px 18px rgba(37,99,235,0.08);
